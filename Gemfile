@@ -28,7 +28,7 @@ gem "prawn"
 gem "mysql2"
 gem "sequel"
 gem "paper_trail", "~> 2"
-gem "draper"
+gem "draper", "~> 0"
 gem 'ledermann-rails-settings', :require => 'rails-settings'
 
 group :development do
