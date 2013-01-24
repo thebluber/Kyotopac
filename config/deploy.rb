@@ -5,7 +5,7 @@ require "rvm/capistrano"                  # Load RVM's capistrano plugin.
 set :rvm_type, :system  # Copy the exact line. I really mean :system here
 
 set :application, "Zenodotos"
-set :repository,  "git://github.com/rogerbraun/Zenodotos.git"
+set :repository,  "https://github.com/thebluber/Kyotopac.git"
 
 set :scm, :git
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
