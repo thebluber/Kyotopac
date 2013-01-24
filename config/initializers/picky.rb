@@ -2,11 +2,11 @@ PICKY_PORT = case ENV['RAILS_ENV']
        when 'development'
          '9292'
        when 'production'
-         '9293'
+         '19293'
        when 'staging'
-         '9294'
+         '19294'
        else
-         '9295'
+         '19295'
        end
 puts "Picky port is #{PICKY_PORT}"
 
